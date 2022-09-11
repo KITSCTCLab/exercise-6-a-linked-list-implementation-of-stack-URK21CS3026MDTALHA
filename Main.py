@@ -19,7 +19,7 @@ class Stack:
     # Write your code here
     if(self.head!=None):
       temp=self.head
-      self.head=self.head.next
+      self.head=temp.next
       temp.next=None
 
   def status(self):
