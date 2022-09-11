@@ -11,7 +11,7 @@ class Stack:
   def push(self, data) -> None:
     # Write your code here
     new_node=Node(data)
-    new_node.self.next=self.head
+    new_node.next=self.head
     self.head=new_node
     
 
