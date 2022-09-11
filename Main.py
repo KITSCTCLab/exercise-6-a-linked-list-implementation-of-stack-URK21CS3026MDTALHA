@@ -29,10 +29,13 @@ class Stack:
     # Write your code here  
     if(self.head!=None):
       itr=self.head
-      while(itr):
+      while(itr.next!=None):
         print(itr.data,"=>",end="")
         itr=itr.next
-    print("None")
+      else:
+        print(itr.data,"None", sep="=>")
+    else:
+      print("None")
 
 
 # Do not change the following code
