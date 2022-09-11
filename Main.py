@@ -27,10 +27,11 @@ class Stack:
     It prints all the elements of stack.
     """
     # Write your code here  
-    itr=self.head
-    while(itr):
-      print(itr.data,"=>",end="")
-      itr=itr.next
+    if(self.head!=None):
+      itr=self.head
+      while(itr):
+        print(itr.data,"=>",end="")
+        itr=itr.next
     print("None")
 
 
