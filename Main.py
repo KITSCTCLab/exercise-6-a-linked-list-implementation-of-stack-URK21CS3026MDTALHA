@@ -27,8 +27,9 @@ class Stack:
     # Write your code here  
     itr=self.head
     while(itr):
-      print(itr.data)
+      print(itr.data,"=>",end="")
       itr=itr.next
+    print("None")
 
 
 # Do not change the following code
